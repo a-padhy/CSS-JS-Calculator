@@ -38,3 +38,26 @@ body {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+/* Attribution */
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.95rem;
+  line-height: 20px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  width: 100%;
+  top: 180px;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: bold;
+}
+
+.attribution a:hover {
+  color: rgb(223, 247, 11);
+}
